@@ -65,8 +65,8 @@
 
  @media only screen and (min-width: 800px) { 
 
-  #desktopView {
-    min-width: 960px;
+  body {
+    width: 960px;
   }
 
   #top-a {
@@ -79,8 +79,9 @@
     height: 600px;
     width: 200px;
     background: red;
+    float: left;
   }
-
+  
   #l-rect-c {
     height: 200px;
     width: 380px;
@@ -98,28 +99,24 @@
   #l-box-e {
     height: 250px;
     width: 190px;
-    float: left;
     background: orange;
   }
 
   #lr-box-f {
     height: 250px;
     width: 190px;
-    float: left;
     background: aqua;
   }
 
   #rl-box-g {
     height: 250px;
     width: 190px;
-    float: left;
     background: grey;
   }
 
   #rr-box-h {
     height: 250px;
     width: 190px;
-    float: left;
     background: brown;
   }
 
